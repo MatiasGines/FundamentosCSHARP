@@ -16,6 +16,7 @@ namespace FundamentosCSHARP.Models
         {
             Console.WriteLine("El maximo permitido de una cerveza es 10");
         }
+
         public Cerveza(int Cantidad, string Nombre="Cerveza") 
             : base(Nombre, Cantidad)
         {
