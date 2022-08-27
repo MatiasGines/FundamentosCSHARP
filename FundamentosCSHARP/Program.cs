@@ -5,6 +5,7 @@ using System.Text.Json.Serialization;
 using System.IO;
 using System.Threading.Tasks;
 using System.Net.Http;
+using System.Linq;
 
 namespace FundamentosCSHARP
 {
@@ -14,8 +15,10 @@ namespace FundamentosCSHARP
 
         static async Task Main(string[] args) {
 
+           
             //solcitud web por http, delete
             //el delete también lleva id al final de la url
+
             string url = "https://jsonplaceholder.typicode.com/posts/99";
             var client = new HttpClient();
 
